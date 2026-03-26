@@ -1,0 +1,95 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Inter", sans-serif;
+      min-height: 100vh;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("../Imagens/ce2c705a5cec179fb1ea249ef7e784b4.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Card */
+.container {
+    background: #996191a8;
+    width: 420px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Photo */
+.container img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Name */
+h1 {
+    color: rgb(247, 231, 161);
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+/* Titles */
+h2 {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+/* Description */
+p {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Links */
+ul {
+    list-style: none;
+}
+
+/* Itens */
+li {
+    margin-bottom: 12px;
+}
+
+/* Botons */
+li a {
+    display: block;
+    text-decoration: none;
+    background:#856d8a;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Hover links */
+li a:hover {
+    background: #ECBC7F;
+    color: #141414;
+}
+
+
